@@ -1,3 +1,5 @@
+// Lorenz System
+
 let s = 1;
 let x=0.1,y=0,z=0,dx,dy,dz,dt=0.01,a=10,c=8/3,b=28;
 let points = [];
@@ -35,9 +37,9 @@ function draw(){
 }
 
 function keyPressed(){
-  if(key === 'w'){
+  if(key === 'w' || keyCode === UP_ARROW){
     s += 0.5;
-  }else if (key === 's') {
+  }else if (key === 's' || keyCode === DOWN_ARROW) {
     s -= 0.5;
   }
 }
