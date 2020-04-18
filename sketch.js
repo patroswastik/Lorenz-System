@@ -35,9 +35,9 @@ function draw(){
 }
 
 function keyPressed(){
-  if(key === 'w'){
+  if(key === 'w' || keyCode === UP_ARROW){
     s += 0.5;
-  }else if (key === 's') {
+  }else if (key === 's' || keyCode === DOWN_ARROW) {
     s -= 0.5;
   }
 }
