@@ -1,6 +1,6 @@
 // Lorenz System
 
-let s = 1;
+let s = 4;
 let x=0.1,y=0,z=0,dx,dy,dz,dt=0.01,a=10,c=8/3,b=28;
 let points = [];
 
